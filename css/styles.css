@@ -72,6 +72,8 @@ ul {
 }
 
 .btn {
+    cursor: pointer;
+
     border-radius: 4px;
     border: 1px solid var(--secondary-white-color);
     background-color: var(--text-light-color);
@@ -125,6 +127,8 @@ ul {
 }
 
 .studio-hero-btn {
+    cursor: pointer;
+
     border-radius: 4px;
     border: none;
     background-color: var(--primary-brand-color);
