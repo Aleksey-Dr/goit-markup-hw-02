@@ -83,6 +83,12 @@ ul {
     color: var(--primary-brand-color);
 }
 
+.btn:hover,
+.btn:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
+}
+
 .menu {
     font-weight: var(--medium-font-weight);
     line-height: 1.5;
@@ -90,11 +96,21 @@ ul {
     color: var(--primary-blue-color);
 }
 
+.menu:hover,
+.menu:focus {
+    color: var(--pressed-state-color);
+}
+
 .contact {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--text-description-color);
+}
+ 
+.contact:hover,
+.contact:focus {
+    color: var(--pressed-state-color);
 }
 
 .studio-hero {
@@ -119,6 +135,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.64px;
     color: var(--white-background-color);
+}
+
+.studio-hero-btn:hover,
+.studio-hero-btn:focus {
+    background-color: var(--pressed-state-color);
 }
 
 .studio-doing {
