@@ -71,6 +71,7 @@ body {
 .card-description {
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: var(--text-description-color);
 }
 
 .btn {
