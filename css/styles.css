@@ -38,7 +38,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand-color);
 }
@@ -55,7 +55,7 @@ body {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.045em;
     text-transform: capitalize;
     color: var(--primary-blue-color);
 }
@@ -64,13 +64,13 @@ body {
     font-size: var(--title-card-font-size);
     font-weight: var(--medium-font-weight);
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025em;
     color: var(--primary-blue-color);
 }
 
 .card-description {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--text-description-color);
 }
 
@@ -83,7 +83,7 @@ body {
     text-align: center;
     font-weight: var(--medium-font-weight);
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     color: var(--primary-brand-color);
 }
 
@@ -112,7 +112,7 @@ body {
 
 .contact-item {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--text-description-color);
 }
  
@@ -129,7 +129,7 @@ body {
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.07em;
     color: var(--white-background-color);
 }
 
@@ -142,7 +142,7 @@ body {
     text-align: center;
     font-weight: var(--medium-font-weight);
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     color: var(--white-background-color);
 }
 
@@ -172,6 +172,6 @@ body {
 
 .footer-description {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--text-light-color);
 }
