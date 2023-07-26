@@ -22,22 +22,22 @@
 body {
     background-color: var(--white-background-color);
     font-family: var(--primary-font-family);
-    color: var(--primary-blue-color)
+    color: var(--text-description-color)
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 
 .logo {
     font-family: var(--logo-font-family);
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: var(--primary-brand-color);
@@ -48,14 +48,16 @@ ul {
 }
 
 .logo-light {
-    color: var(--secondary-white-color);
+    color: var(--text-light-color);
 }
 
 .title {
+    text-align: center;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: var(--primary-blue-color);
 }
 
 .title-card {
@@ -63,18 +65,17 @@ ul {
     font-weight: var(--medium-font-weight);
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: var(--primary-blue-color);
 }
 
 .card-description {
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
-    color: var(--text-description-color);
 }
 
 .btn {
     cursor: pointer;
 
-    border-radius: 4px;
     border: 1px solid var(--secondary-white-color);
     background-color: var(--text-light-color);
 
@@ -93,8 +94,9 @@ ul {
 
 .menu {
     font-weight: var(--medium-font-weight);
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--primary-blue-color);
 }
 
@@ -105,13 +107,16 @@ ul {
 
 .contact {
     font-style: normal;
+}
+
+.contact-item {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--text-description-color);
 }
  
-.contact:hover,
-.contact:focus {
+.contact-item:hover,
+.contact-item:focus {
     color: var(--pressed-state-color);
 }
 
@@ -120,8 +125,9 @@ ul {
 }
 
 .studio-hero-title {
+    text-align: center;
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     color: var(--white-background-color);
 }
@@ -129,11 +135,9 @@ ul {
 .studio-hero-btn {
     cursor: pointer;
 
-    border-radius: 4px;
     border: none;
     background-color: var(--primary-brand-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
+    
     text-align: center;
     font-weight: var(--medium-font-weight);
     line-height: 1.5;
@@ -154,13 +158,6 @@ ul {
     background-color: var(--text-light-color);
 }
 .studio-team-card {
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px
-        rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px
-        rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px
-        rgba(46, 47, 66, 0.08);
     background-color: var(--white-background-color);
 }
 
